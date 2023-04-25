@@ -1,0 +1,184 @@
+@media(min-width: 834px) and(max-width: 1024px) {
+    .menu-container {
+        margin: 0 1rem !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+    .nav-menu {
+        margin-right: 4rem;
+    }
+
+    .hero-text {
+        left: 60%;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .hero-text .para {
+        width: 420px;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        margin: 20px 0 30px 0px;
+    }
+
+    .order-btn {
+        font-size: 1rem;
+        padding: 12px 26px;
+    }
+
+    .menu-link,
+    .fa.fa-arrow-right {
+        font-size: 16px;
+
+    }
+}
+@media(max-width: 834px) {
+    .menu-container {
+        margin: 0 3rem !important;
+    }
+   
+    /**cart css: start**/
+    .recipe-text-container {
+        width: 100% !important;
+    }
+
+    .cart-recipe-text {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px !important;
+    }
+
+    .cart-recipe-text p {
+        width: 100%;
+    }
+
+    .cart-btns {
+        margin-top: 1rem !important;
+    }
+
+    .fa.fa-solid {
+        font-size: 20px;
+    }
+    .cart-heading {
+        padding-top: 9rem;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+    .cart-text {
+        margin-bottom: 2rem;
+    }
+    .cart-text p {
+        margin-bottom: 12px !important;
+        font-size: 15px !important;
+    }
+    .coupon-btn {
+        font-size: 12px;
+    }
+}
+@media(max-width: 575px) {
+    .logo-image {
+        margin-top: 4rem;
+        height: 3rem;
+        margin-left: 1rem;
+        border-radius: 50%;
+        width: 3rem;
+    }
+    .page-loader{
+        width: 250px;
+    }
+
+    .nav-menu {
+        margin-right: 0rem;
+    }
+
+    .nav-links {
+        margin-right: 2rem;
+        font-size: 14px;
+    }
+
+    .hero-text {
+        left: 50%;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .hero-text .para {
+        width: 320px;
+        font-size: 15px;
+        line-height: 28px;
+        margin: 15px 0 25px 0px;
+    }
+
+    .order-btn {
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+
+    .menu-link {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .fa.fa-arrow-right {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .menu-container {
+        margin: 0 1.5rem !important;
+    }
+    .recipe-card{
+        width: 270px;
+    }
+    .description{
+        width: 237px !important;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .filter-inputs {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .card-recipe-text{
+        padding: 10px !important;
+    }
+    .cart-btns .minus-btn,
+    .cart-btns .plus-btn {
+        margin: 0 15px 0 15px !important;
+        width: 20px  !important;
+        height: 20px  !important;
+        font-size: 14px!important;
+    }
+    .recipe-text-container p{
+        font-size: 12px;
+    }
+
+    .fa.fa-solid {
+        font-size: 20px !important;
+    }
+    .image-container img{
+        width: 120px !important;
+    }
+    .filter-heading {
+        margin-bottom: 2rem !important;
+        font-size: 1.4rem !important;
+    }
+    .category-inputs{
+        margin-bottom: 15px !important;
+    }
+    .search-input{
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+

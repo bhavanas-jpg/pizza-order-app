@@ -1,0 +1,105 @@
+.cart-page{
+    background: rgba(30, 28, 28, 0.91);
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    /* position: relative;
+    top: 0; */
+}
+.cart-heading{
+    padding-top: 9rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+}
+.cart-text{
+    margin-bottom: 3rem;
+}
+.cart-text p{
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.cart-recipe-card{
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.2);
+    
+}
+.image-container{
+    font-size: 0;
+}
+.cart-recipe-card img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+    
+}
+.cart-recipe-text{
+    padding: 20px;
+   
+    font-size: 16px;
+    display: flex;
+}
+.recipe-text-container{
+    width: 18rem;
+}
+.cart-recipe-text p{
+    margin-bottom: 10px;
+}
+.fa.fa-solid{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    cursor: pointer;
+}
+.cart-btns{
+    margin-top: 2rem;
+    display: flex;
+
+}
+.cart-btns .minus-btn,
+.cart-btns .plus-btn{
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px 0 35px;
+    cursor: pointer;
+}
+.coupon-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+.remove-coupon{
+    background-color: rgb(241, 38, 38);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+.cart-length{
+    font-size: 13px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    top:10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

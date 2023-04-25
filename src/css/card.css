@@ -1,0 +1,120 @@
+.button-89 {
+    --b: 2px; /* border thickness */
+    --s: 0.12em; /* size of the corner */
+    --color: #fff;
+    font-family: "Merienda", cursive;
+    padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(
+        from 90deg at var(--b) var(--b),
+        #0000 90deg,
+        rgb(255, 0, 0) 0
+      )
+      var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+      calc(100% - var(--b) - 2 * var(--_p));
+    transition: 0.2s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: 0.6em;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 0;
+    margin: 25px auto 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-89.active {
+    --b: 2px; /* border thickness */
+    --s: 0.12em;
+    background: rgb(255, 0, 0);
+    color: #fff;
+  }
+  .button-89:hover {
+    --b: 2px; /* border thickness */
+    --s: 0.12em;
+    background: rgb(255, 0, 0);
+    transition: 0.3s linear, color 0s, background 0s;
+  }
+  
+  .menu-container{
+    margin: 0 5rem;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card-container img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .recipe-card  {
+    border: 1px solid rgb(148, 145, 145);
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .card-text{
+    padding: 15px;
+  }
+  .description {
+    width: 277px;
+    text-align: justify;
+    margin: 12px 0;
+    height: 70px;
+    max-height: 70px;
+  }
+  .filter-heading {
+    padding-top: 9rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    
+  }
+  .menu-page {
+    background: rgba(30, 28, 28, 0.91);
+    color: #fff;
+    min-height: 100vh;
+    /* position: relative;
+    top: 0; */
+  }
+  .card-image {
+    object-fit: cover;
+    width: 100%;
+  }
+  .card-heading{
+    margin-top: 20px;
+    text-align: center;
+
+  }
+  .price-tag {
+    position: absolute;
+    top: 10.5rem;
+    font-size: 17px;
+    left: 2rem;
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  .filter-inputs{
+    display: flex;
+    margin-bottom: 50px;  
+    align-items: center; 
+  }
+  .search-input{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 20%;
+  }
+  .category-inputs{
+    margin:0 3rem 0 3rem;
+  }
+  .category-inputs input,
+  .sort-inputs input{
+    margin:0 10px 0 20px;
+  }
